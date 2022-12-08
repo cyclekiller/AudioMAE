@@ -159,10 +159,10 @@ def get_args_parser():
 
     # For audioset
     parser.add_argument('--audio_exp', action='store_true', help='audio exp')
-    parser.add_argument("--data_train", type=str, default='/checkpoint/berniehuang/ast/egs/audioset/data/datafiles/train_video.json', help="training data json")
-    parser.add_argument("--data_eval", type=str, default='/checkpoint/berniehuang/ast/egs/audioset/data/datafiles/eval_video.json', help="validation data json")
-    parser.add_argument("--label_csv", type=str, default='/checkpoint/berniehuang/ast/egs/audioset/data/class_labels_indices.csv', help="csv with class labels")
-    parser.add_argument("--weight_csv", type=str, default='/checkpoint/berniehuang/mae/data/audioset/weight_train_all.csv', help="weight file")
+    parser.add_argument("--data_train", type=str, default='./data/audioset/train_video.json', help="training data json")
+    parser.add_argument("--data_eval", type=str, default='./data/audioset/eval_video.json', help="validation data json")
+    parser.add_argument("--label_csv", type=str, default='./data/audioset/class_labels_indices.csv', help="csv with class labels")
+    parser.add_argument("--weight_csv", type=str, default='./data/audioset/weight_train_all.csv', help="weight file")
     
     parser.add_argument('--freqm', help='frequency mask max length', type=int, default=192)
     parser.add_argument('--timem', help='time mask max length', type=int, default=48)

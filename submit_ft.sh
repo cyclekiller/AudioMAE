@@ -21,10 +21,10 @@ else
 	model=$3
 fi
 
-audioset_train_json=/checkpoint/berniehuang/ast/egs/audioset/data/datafiles/train.json
-audioset_train_all_json=/checkpoint/berniehuang/ast/egs/audioset/data/datafiles/train_all.json
-audioset_eval_json=/checkpoint/berniehuang/ast/egs/audioset/data/datafiles/eval.json
-audioset_label=/checkpoint/berniehuang/ast/egs/audioset/data/class_labels_indices.csv
+audioset_train_json=./data/audioset/train.json
+audioset_train_all_json=./data/audioset/train_all.json
+audioset_eval_json=./data/audioset/eval.json
+audioset_label=./data/audioset/class_labels_indices.csv
 dataset=audioset
 
 python submitit_finetune.py \

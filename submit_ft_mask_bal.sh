@@ -28,12 +28,12 @@ else
 	ckpt=$4
 fi
 
-audioset_train_json=/checkpoint/berniehuang/ast/egs/audioset/data/datafiles/train.json
-audioset_train_all_json=/checkpoint/berniehuang/ast/egs/audioset/data/datafiles/train_all.json
-audioset_eval_json=/checkpoint/berniehuang/ast/egs/audioset/data/datafiles/eval_19k.json
-audioset_label=/checkpoint/berniehuang/ast/egs/audioset/data/class_labels_indices.csv
-audioset_train_weight=/checkpoint/berniehuang/mae/data/audioset/weight_train.csv
-audioset_train_all_weight=/checkpoint/berniehuang/mae/data/audioset/weight_train_all.csv
+audioset_train_json=./data/audioset/train.json
+audioset_train_all_json=./data/audioset/train_all.json
+audioset_eval_json=./data/audioset/eval_19k.json
+audioset_label=./data/audioset/class_labels_indices.csv
+audioset_train_weight=./data/audioset/weight_train.csv
+audioset_train_all_weight=./data/audioset/weight_train_all.csv
 dataset=audioset
 
 python submitit_finetune.py \
@@ -60,7 +60,7 @@ python submitit_finetune.py \
     --mask_2d True \
 
 
-#audioset_train_all_video_json=/checkpoint/berniehuang/ast/egs/audioset/data/datafiles/train_all_video.json
-#audioset_eval_video_json=/checkpoint/berniehuang/ast/egs/audioset/data/datafiles/eval_video.json
-#audioset_train_all_video_weight=/checkpoint/berniehuang/mae/data/audioset/weight_train_all_video.csv
+#audioset_train_all_video_json=./data/audioset/train_all_video.json
+#audioset_eval_video_json=./data/audioset/eval_video.json
+#audioset_train_all_video_weight=./data/audioset/weight_train_all_video.csv
 

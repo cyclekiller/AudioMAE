@@ -1,0 +1,5 @@
+*.pth
+*.json
+*.csv
+*.tar
+*.pyc

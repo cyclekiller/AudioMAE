@@ -156,9 +156,9 @@ def get_args_parser():
 
     # For audioset
     parser.add_argument('--audio_exp', action='store_true', help='audio exp')
-    parser.add_argument("--data_train", type=str, default='/checkpoint/berniehuang/ast/egs/audioset/data/datafiles/train.json', help="training data json")
-    parser.add_argument("--data_eval", type=str, default='/checkpoint/berniehuang/ast/egs/audioset/data/datafiles/train.json', help="validation data json")
-    parser.add_argument("--label_csv", type=str, default='/checkpoint/berniehuang/ast/egs/audioset/data/class_labels_indices.csv', help="csv with class labels")
+    parser.add_argument("--data_train", type=str, default='./data/audioset/train.json', help="training data json")
+    parser.add_argument("--data_eval", type=str, default='./data/audioset/train.json', help="validation data json")
+    parser.add_argument("--label_csv", type=str, default='./data/audioset/class_labels_indices.csv', help="csv with class labels")
     parser.add_argument('--freqm', help='frequency mask max length', type=int, default=96)
     parser.add_argument('--timem', help='time mask max length', type=int, default=24)
     #parser.add_argument("--mixup", type=float, default=0, help="how many (0-1) samples need to be mixup during training")

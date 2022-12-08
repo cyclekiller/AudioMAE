@@ -11,10 +11,10 @@
 #SBATCH --output=/checkpoint/%u/jobs/%A.out
 #SBATCH --error=/checkpoint/%u/jobs/%A.err
 
-audioset_train_json=/checkpoint/berniehuang/ast/egs/audioset/data/datafiles/train.json
-audioset_train_all_json=/checkpoint/berniehuang/ast/egs/audioset/data/datafiles/train_all.json
-audioset_eval_json=/checkpoint/berniehuang/ast/egs/audioset/data/datafiles/eval_19k.json
-audioset_label=/checkpoint/berniehuang/ast/egs/audioset/data/class_labels_indices.csv
+audioset_train_json=./data/audioset/train.json
+audioset_train_all_json=./data/audioset/train_all.json
+audioset_eval_json=./data/audioset/eval_19k.json
+audioset_label=./data/audioset/class_labels_indices.csv
 dataset=audioset
 
 if [ -z "$1" ]
@@ -26,8 +26,8 @@ fi
 
 
 CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node=1 main_finetune_as.py \
---log_dir /checkpoint/berniehuang/mae/as_exp/$SLURM_JOB_ID \
---output_dir /checkpoint/berniehuang/mae/as_exp/$SLURM_JOB_ID \
+--log_dir ./as_exp/$SLURM_JOB_ID \
+--output_dir ./as_exp/$SLURM_JOB_ID \
 --model vit_base_patch16 \
 --dataset $dataset \
 --data_train $audioset_train_json \
