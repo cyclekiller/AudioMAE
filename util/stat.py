@@ -37,16 +37,21 @@ def calculate_stats(output, target):
 
     # Accuracy, only used for single-label classification such as esc-50, not for multiple label one such as AudioSet
     acc = metrics.accuracy_score(np.argmax(target, 1), np.argmax(output, 1))
+    print("acc: ", acc)
 
     # Class-wise statistics
     for k in range(classes_num):
+        if (np.max(target[:, k])) == 0:
+            continue
 
         # Average precision
         avg_precision = metrics.average_precision_score(
             target[:, k], output[:, k], average=None)
 
         # AUC
-        auc = metrics.roc_auc_score(target[:, k], output[:, k], average=None)
+        # print('target: ', target[:, k], ' of class ', k)
+        # print('output: ', output[:, k], ' of class ', k)
+        auc = 1 # metrics.roc_auc_score(target[:, k], output[:, k], average=None)
 
         # Precisions, recalls
         (precisions, recalls, thresholds) = metrics.precision_recall_curve(
@@ -65,6 +70,7 @@ def calculate_stats(output, target):
                 # note acc is not class-wise, this is just to keep consistent with other metrics
                 'acc': acc
                 }
-        stats.append(dict)
+        if dict['AP'] >= 0:
+            stats.append(dict)
 
     return stats

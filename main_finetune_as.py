@@ -124,7 +124,7 @@ def get_args_parser():
     # Dataset parameters
     parser.add_argument('--data_path', default='/datasets01/imagenet_full_size/061417/', type=str,
                         help='dataset path')
-    parser.add_argument('--nb_classes', default=527, type=int,
+    parser.add_argument('--nb_classes', default=527, type=int, # modified: note the class num (start from 0)
                         help='number of the classification types')
 
     parser.add_argument('--output_dir', default='./output_dir',
@@ -167,7 +167,7 @@ def get_args_parser():
     parser.add_argument('--freqm', help='frequency mask max length', type=int, default=192)
     parser.add_argument('--timem', help='time mask max length', type=int, default=48)
     #parser.add_argument("--mixup", type=float, default=0, help="how many (0-1) samples need to be mixup during training")
-    parser.add_argument("--dataset", type=str, default="audioset", help="the dataset used", choices=["audioset", "esc50", "speechcommands", "k400"])
+    parser.add_argument("--dataset", type=str, default="audioset", help="the dataset used", choices=["audioset", "esc50", "speechcommands", "k400", "ICASSP2018-trivial"])
     parser.add_argument("--use_fbank", type=bool, default=False)
     parser.add_argument("--use_soft", type=bool, default=False)
     parser.add_argument("--fbank_dir", type=str, default="/checkpoint/berniehuang/ast/egs/esc50/data/ESC-50-master/fbank", help="fbank dir") 
@@ -248,9 +248,10 @@ def main(args):
         dataset_val = build_dataset(is_train=False, args=args)
     else:
         norm_stats = {'audioset':[-4.2677393, 4.5689974], 'k400':[-4.2677393, 4.5689974], 
-                      'esc50':[-6.6268077, 5.358466], 'speechcommands':[-6.845978, 5.5654526]}
-        target_length = {'audioset':1024, 'k400':1024, 'esc50':512, 'speechcommands':128}
-        multilabel_dataset = {'audioset': True, 'esc50': False, 'k400': False, 'speechcommands': True}
+                      'esc50':[-6.6268077, 5.358466], 'speechcommands':[-6.845978, 5.5654526],
+                      'ICASSP2018-trivial': [-6.243623, 3.9804757],}
+        target_length = {'audioset':1024, 'k400':1024, 'esc50':512, 'speechcommands':128, 'ICASSP2018-trivial': 1024}
+        multilabel_dataset = {'audioset': True, 'esc50': False, 'k400': False, 'speechcommands': True, 'ICASSP2018-trivial': True}
         audio_conf_train = {'num_mel_bins': 128, 
                       'target_length': target_length[args.dataset], 
                       'freqm': 48,
@@ -338,7 +339,7 @@ def main(args):
         batch_size=args.batch_size,
         num_workers=args.num_workers,
         pin_memory=args.pin_mem,
-        drop_last=True,
+        drop_last=False, # modified: drop_last=True
     )
 
     data_loader_val = torch.utils.data.DataLoader(
@@ -479,11 +480,11 @@ def main(args):
                 log_writer=log_writer,
                 args=args
             )
-        if args.output_dir:
+        if args.output_dir and epoch % 60 == 59: # modified: save every 60 epoch
             misc.save_model(
                 args=args, model=model, model_without_ddp=model_without_ddp, optimizer=optimizer,
                 loss_scaler=loss_scaler, epoch=epoch)
-        if epoch >= args.first_eval_ep:
+        if epoch >= args.first_eval_ep and epoch % 30 == 29: # modified: log every 30 epoch
             test_stats = evaluate(data_loader_val, model, device, args.dist_eval)
             print(f"mAP of the network on the {len(dataset_val)} test images: {test_stats['mAP']:.4f}")
             max_mAP = max(max_mAP, test_stats["mAP"])

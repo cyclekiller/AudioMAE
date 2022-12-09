@@ -1,0 +1,880 @@
+{
+"data": [
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_206_3.wav",
+"labels": "206"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_180_3.wav",
+"labels": "180"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_133_3.wav",
+"labels": "133"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_225_6.wav",
+"labels": "225"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_133_9.wav",
+"labels": "133"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_223_6.wav",
+"labels": "223"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_516_3.wav",
+"labels": "516"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_228_6.wav",
+"labels": "228"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_204_3.wav",
+"labels": "204"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_119_3.wav",
+"labels": "119"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_235_3.wav",
+"labels": "235"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_379_3.wav",
+"labels": "379"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_139_9.wav",
+"labels": "139"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_220_9.wav",
+"labels": "220"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_379_9.wav",
+"labels": "379"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_71_3.wav",
+"labels": "71"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_384_3.wav",
+"labels": "384"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_311_9.wav",
+"labels": "311"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_111_3.wav",
+"labels": "111"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_369_6.wav",
+"labels": "369"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_274_6.wav",
+"labels": "274"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_216_3.wav",
+"labels": "216"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_243_3.wav",
+"labels": "243"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_291_6.wav",
+"labels": "291"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_133_6.wav",
+"labels": "133"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_2_9.wav",
+"labels": "2"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_217_9.wav",
+"labels": "217"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_119_6.wav",
+"labels": "119"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_249_9.wav",
+"labels": "249"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_241_9.wav",
+"labels": "241"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_225_3.wav",
+"labels": "225"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_25_3.wav",
+"labels": "25"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_110_6.wav",
+"labels": "110"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_176_9.wav",
+"labels": "176"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_60_9.wav",
+"labels": "60"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_207_3.wav",
+"labels": "207"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_2_6.wav",
+"labels": "2"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_63_3.wav",
+"labels": "63"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_60_6.wav",
+"labels": "60"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_445_9.wav",
+"labels": "445"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_109_9.wav",
+"labels": "109"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_176_3.wav",
+"labels": "176"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_202_9.wav",
+"labels": "202"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_204_6.wav",
+"labels": "204"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_347_6.wav",
+"labels": "347"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_356_6.wav",
+"labels": "356"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_52_9.wav",
+"labels": "52"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_275_6.wav",
+"labels": "275"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_256_3.wav",
+"labels": "256"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_241_6.wav",
+"labels": "241"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_367_6.wav",
+"labels": "367"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_206_9.wav",
+"labels": "206"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_366_9.wav",
+"labels": "366"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_248_3.wav",
+"labels": "248"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_383_9.wav",
+"labels": "383"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_202_3.wav",
+"labels": "202"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_109_6.wav",
+"labels": "109"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_138_9.wav",
+"labels": "138"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_232_3.wav",
+"labels": "232"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_130_3.wav",
+"labels": "130"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_63_9.wav",
+"labels": "63"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_249_6.wav",
+"labels": "249"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_71_9.wav",
+"labels": "71"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_44_6.wav",
+"labels": "44"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_219_6.wav",
+"labels": "219"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_275_3.wav",
+"labels": "275"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_445_6.wav",
+"labels": "445"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_401_3.wav",
+"labels": "401"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_291_3.wav",
+"labels": "291"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_248_6.wav",
+"labels": "248"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_369_9.wav",
+"labels": "369"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_473_9.wav",
+"labels": "473"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_251_9.wav",
+"labels": "251"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_233_3.wav",
+"labels": "233"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_137_9.wav",
+"labels": "137"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_347_3.wav",
+"labels": "347"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_359_3.wav",
+"labels": "359"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_233_9.wav",
+"labels": "233"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_359_6.wav",
+"labels": "359"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_251_6.wav",
+"labels": "251"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_274_3.wav",
+"labels": "274"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_191_6.wav",
+"labels": "191"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_138_6.wav",
+"labels": "138"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_473_3.wav",
+"labels": "473"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_52_6.wav",
+"labels": "52"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_311_3.wav",
+"labels": "311"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_225_9.wav",
+"labels": "225"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_226_9.wav",
+"labels": "226"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_137_6.wav",
+"labels": "137"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_366_3.wav",
+"labels": "366"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_367_3.wav",
+"labels": "367"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_130_6.wav",
+"labels": "130"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_224_6.wav",
+"labels": "224"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_374_9.wav",
+"labels": "374"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_300_6.wav",
+"labels": "300"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_207_9.wav",
+"labels": "207"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_107_3.wav",
+"labels": "107"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_127_9.wav",
+"labels": "127"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_367_9.wav",
+"labels": "367"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_247_9.wav",
+"labels": "247"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_291_9.wav",
+"labels": "291"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_63_6.wav",
+"labels": "63"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_383_6.wav",
+"labels": "383"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_243_6.wav",
+"labels": "243"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_401_6.wav",
+"labels": "401"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_111_6.wav",
+"labels": "111"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_228_9.wav",
+"labels": "228"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_516_6.wav",
+"labels": "516"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_216_9.wav",
+"labels": "216"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_308_3.wav",
+"labels": "308"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_176_6.wav",
+"labels": "176"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_232_6.wav",
+"labels": "232"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_300_3.wav",
+"labels": "300"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_347_9.wav",
+"labels": "347"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_216_6.wav",
+"labels": "216"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_224_9.wav",
+"labels": "224"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_119_9.wav",
+"labels": "119"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_251_3.wav",
+"labels": "251"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_212_9.wav",
+"labels": "212"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_102_6.wav",
+"labels": "102"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_180_6.wav",
+"labels": "180"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_299_6.wav",
+"labels": "299"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_248_9.wav",
+"labels": "248"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_217_3.wav",
+"labels": "217"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_366_6.wav",
+"labels": "366"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_109_3.wav",
+"labels": "109"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_379_6.wav",
+"labels": "379"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_368_6.wav",
+"labels": "368"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_127_3.wav",
+"labels": "127"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_308_6.wav",
+"labels": "308"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_102_3.wav",
+"labels": "102"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_185_6.wav",
+"labels": "185"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_256_6.wav",
+"labels": "256"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_399_9.wav",
+"labels": "399"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_185_3.wav",
+"labels": "185"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_360_3.wav",
+"labels": "360"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_139_6.wav",
+"labels": "139"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_191_3.wav",
+"labels": "191"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_52_3.wav",
+"labels": "52"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_219_9.wav",
+"labels": "219"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_399_3.wav",
+"labels": "399"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_204_9.wav",
+"labels": "204"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_220_6.wav",
+"labels": "220"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_311_6.wav",
+"labels": "311"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_58_6.wav",
+"labels": "58"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_137_3.wav",
+"labels": "137"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_226_6.wav",
+"labels": "226"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_110_3.wav",
+"labels": "110"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_399_6.wav",
+"labels": "399"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_214_9.wav",
+"labels": "214"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_256_9.wav",
+"labels": "256"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_299_3.wav",
+"labels": "299"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_191_9.wav",
+"labels": "191"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_10_9.wav",
+"labels": "10"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_235_9.wav",
+"labels": "235"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_383_3.wav",
+"labels": "383"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_401_9.wav",
+"labels": "401"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_223_3.wav",
+"labels": "223"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_25_6.wav",
+"labels": "25"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_368_9.wav",
+"labels": "368"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_374_6.wav",
+"labels": "374"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_247_3.wav",
+"labels": "247"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_212_3.wav",
+"labels": "212"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_110_9.wav",
+"labels": "110"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_207_6.wav",
+"labels": "207"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_217_6.wav",
+"labels": "217"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_368_3.wav",
+"labels": "368"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_211_3.wav",
+"labels": "211"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_185_9.wav",
+"labels": "185"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_374_3.wav",
+"labels": "374"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_111_9.wav",
+"labels": "111"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_384_9.wav",
+"labels": "384"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_214_3.wav",
+"labels": "214"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_356_9.wav",
+"labels": "356"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_249_3.wav",
+"labels": "249"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_228_3.wav",
+"labels": "228"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_243_9.wav",
+"labels": "243"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_107_6.wav",
+"labels": "107"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_71_6.wav",
+"labels": "71"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_275_9.wav",
+"labels": "275"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_226_3.wav",
+"labels": "226"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_224_3.wav",
+"labels": "224"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_235_6.wav",
+"labels": "235"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_180_9.wav",
+"labels": "180"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_107_9.wav",
+"labels": "107"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_2_3.wav",
+"labels": "2"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_369_3.wav",
+"labels": "369"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_274_9.wav",
+"labels": "274"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_223_9.wav",
+"labels": "223"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_44_9.wav",
+"labels": "44"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_445_3.wav",
+"labels": "445"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_300_9.wav",
+"labels": "300"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_211_6.wav",
+"labels": "211"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_211_9.wav",
+"labels": "211"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_139_3.wav",
+"labels": "139"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_384_6.wav",
+"labels": "384"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_214_6.wav",
+"labels": "214"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_516_9.wav",
+"labels": "516"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_102_9.wav",
+"labels": "102"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_10_3.wav",
+"labels": "10"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_219_3.wav",
+"labels": "219"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_360_9.wav",
+"labels": "360"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_233_6.wav",
+"labels": "233"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_232_9.wav",
+"labels": "232"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_130_9.wav",
+"labels": "130"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_10_6.wav",
+"labels": "10"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_359_9.wav",
+"labels": "359"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_58_3.wav",
+"labels": "58"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_360_6.wav",
+"labels": "360"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_138_3.wav",
+"labels": "138"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_220_3.wav",
+"labels": "220"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_206_6.wav",
+"labels": "206"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_247_6.wav",
+"labels": "247"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_299_9.wav",
+"labels": "299"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_356_3.wav",
+"labels": "356"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_60_3.wav",
+"labels": "60"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_25_9.wav",
+"labels": "25"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_241_3.wav",
+"labels": "241"
+},
+{
+"wav": "./data/ICASSP2018-trivial/tiled_cough/1_127_6.wav",
+"labels": "127"
+}
+]
+}
