@@ -514,7 +514,7 @@
                 "--data_train",
                 "./data/ICASSP2018-trivial/train_tiled_cough_rand_*.json",
                 "--data_eval",
-                "./data/ICASSP2018-trivial/eval_tiled_cough.json", // eval_tiled_cough.json for evaluating on normal_tile
+                "./data/ICASSP2018-trivial/eval_tiled_cough_rand_*.json", // eval_tiled_cough.json for evaluating on normal_tile
                 "--label_csv",
                 "./data/ICASSP2018-trivial/class_labels_indices.csv",
                 "--finetune",
