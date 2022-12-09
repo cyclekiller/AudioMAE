@@ -47,10 +47,8 @@ with open(f"./data/ICASSP2018-trivial/class_labels_indices.csv", 'r') as f:
     for line in lines:
         speaker_set.add(int(line.split(',')[1]))
 
-# for data_split in ['train', 'eval']:
-#     for dataset_folder in ['laugh', 'cough']:
-#         gen(data_split, dataset_folder)
-#         gen(data_split, f'tiled_{dataset_folder}')
-
-gen('train', 'tiled_laugh', True)
-gen('eval', 'tiled_laugh', True)
+for dataset in ['laugh', 'cough']:
+    for data_split in ['train', 'eval']:
+        gen(data_split, dataset, False)
+        gen(data_split, 'tiled_' + dataset, False)
+        gen(data_split, 'tiled_' + dataset, True)

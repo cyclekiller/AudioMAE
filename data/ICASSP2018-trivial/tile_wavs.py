@@ -26,3 +26,6 @@ def tile(dataset_folder, rand=False, rand_time=1):
 # tile('cough')
 for rand_time in range(3):
     tile('laugh', rand=True, rand_time=rand_time)
+
+for rand_time in range(3):
+    tile('cough', rand=True, rand_time=rand_time)

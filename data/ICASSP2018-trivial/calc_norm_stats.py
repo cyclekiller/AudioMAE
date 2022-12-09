@@ -28,4 +28,7 @@ def wav2fbank(filename):
 X = [wav2fbank(wav_path) for wav_path in tqdm(glob.glob("./data/ICASSP2018-trivial/tiled_laugh/*.wav"))]
 X = np.hstack(X)
 norm_stats = np.array([X.mean(), X.std()])
-print(norm_stats) # [-6.243623   3.9804757]
+
+print(norm_stats) # [-6.243623   3.9804757] for laugh
+                                   # [-5.699026  4.409625] for cough
+                                   # for simplicity just use [-6.243623   3.9804757]
