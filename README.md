@@ -1,7 +1,7 @@
-# RANDOMLY TILING SHORT TRIVIAL SPEECH EVENTS IMPROVES SPEAKER RECOGNITION IN MASKED AUTOENCODERS
+# RANDOMLY SCATTERING SHORT TRIVIAL SPEECH EVENTS IMPROVES SPEAKER RECOGNITION IN MASKED AUTOENCODERS
 - [AudioMAE](https://github.com/facebookresearch/AudioMAE) is a relatively new pre-training method for audio classification tasks built on the ViT backbone.
 - [CSLT-TRIVIAL-I](https://github.com/CSLT-THU/ICASSP2018-trivial/tree/master/CSLT-TRIVIAL-I) is a dataset composing of 75 speakers uttering short trivial speech events such as cough and laugh. It is mainly designed to perform speaker recognition tasks.
-- This repo uses the same method as AudioMAE to finetune the model for speaker identification using cough and laugh data from CSLT-TRIVIAL-I. Several data augmentation methods are used, among which random tiling is the best.
+- This repo uses the same method as AudioMAE to finetune the model for speaker identification using cough and laugh data from CSLT-TRIVIAL-I. Several data preprocessing/augmentation methods are used, among which random scattering is the best.
 
 ## Steps to reproduce the experiments
 1. Download the finetuned model checkpoint from [AudioMAE](https://github.com/facebookresearch/AudioMAE#5-inference) repo, place it under `./ckpt/`.
@@ -20,11 +20,11 @@ Model | Acc.(%)
 ------ | ------
 Padded | 72.6
 Tiled | 72.6
-Rand-Tiled | **75.5**
+Scattered | **75.5**
 
 Speaker recognition (cough):
 Model | Acc.(%)
 ------ | ------
 Padded | 85.8
 Tiled | 86.8
-Rand-Tiled | **89.2**
+Scattered | **89.2**
